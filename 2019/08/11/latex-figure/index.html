@@ -22,7 +22,7 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evF3Je.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evF1iD.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evFQIO.png">
-<meta property="og:updated_time" content="2019-08-11T08:08:12.990Z">
+<meta property="og:updated_time" content="2019-08-12T01:46:29.124Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于latex的一些事（二）——图片插入">
 <meta name="twitter:description" content="接下来是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 图片插入在LaTex如何插入图片作者在上一篇文章中已经有了简单的介绍，所以在这里就不在赘述了，想看下的话请点这里，接下来我们直接进入正题。 图片宏包在图片插入中需要引入graphicx宏包，引入后就可以用\includegra">
@@ -117,6 +117,11 @@
 		        
 					<a class="weixin" target="_blank" href="/img/wechat.png" title="微信"><i class="icon-weixin"></i></a>
 		        
+			</div>
+		
+			<!-- 网易云音乐插件 -->
+			<div style="position:absolute; bottom:120px left:auto; width:85%">
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=1365221826&auto=1&height=32"></iframe>
 			</div>
 		
 		</nav>
@@ -245,8 +250,7 @@
     
     <h1 id="接下来是关于LaTex的一些使用技巧"><a href="#接下来是关于LaTex的一些使用技巧" class="headerlink" title="接下来是关于LaTex的一些使用技巧"></a>接下来是关于LaTex的一些使用技巧</h1><p>此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。</p>
 <h2 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h2><p>在LaTex如何插入图片作者在上一篇文章中已经有了简单的介绍，所以在这里就不在赘述了，想看下的话请<a href="https://blog.csdn.net/cphtt129213/article/details/86549969" target="_blank" rel="noopener">点这里</a>，接下来我们直接进入正题。</p>
-<h3 id="图片宏包"><a href="#图片宏包" class="headerlink" title="图片宏包"></a>图片宏包</h3><p>在图片插入中需要引入<kbd>graphicx</kbd>宏包，引入后就可以用<kbd>\includegraphics</kbd>来插入图片了，下面看一个例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;graphicx&#125;		%图片宏包</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\section&#123;figure&#125;		%一级标题 </span><br><span class="line"></span><br><span class="line">	\begin&#123;figure&#125;[h]</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">		\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">	\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="图片宏包"><a href="#图片宏包" class="headerlink" title="图片宏包"></a>图片宏包</h3><p>在图片插入中需要引入<kbd>graphicx</kbd>宏包，引入后就可以用<kbd>\includegraphics</kbd>来插入图片了，下面看一个例子：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;graphicx&#125;		%图片宏包</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\section&#123;figure&#125;		%一级标题 </span><br><span class="line"></span><br><span class="line">	\begin&#123;figure&#125;[h]</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">		\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">	\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure></p>
 <p>排版效果图如下：</p>
 <p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evFKZ6.png" alt="1"><br>在排版过程中，<kbd>\includegraphics[$a$]{$b$}</kbd>命令中，参数$a$是可选参数，是用来调整图片的大小的，可以用$width$、$height$和$scale$来调整。参数$b$是必选参数，是来写插入图片的名字。<br>$eg：width=3cm, height=8 cm，scale=0.4[缩放因子]$，这里说明一下，多数情况下对$b$这三个参数选择一个进行对图片的缩放。<br>此外，<kbd>\centering</kbd>命令来使图片居中，<kbd>\caption{…}</kbd>命令来显示图尾。</div></p>
 <h3 id="插入路径说明"><a href="#插入路径说明" class="headerlink" title="插入路径说明"></a>插入路径说明</h3><p>对于有强迫症的小编，可能更喜欢相对路径的图片插入，也很简单，只需要在你所写的<kbd>.tex</kbd>文件的文件夹下建一个单独的文件夹，话不多说，看图：</p>
@@ -405,20 +409,15 @@ p 独立一页（page）
 
 <nav id="article-nav">
   
-    <a href="/2019/08/11/latex-table/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/08/11/latex_first/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          关于latex的一些事（三）——表格+公式
+          关于Latex的那些事（一）——新手入门
         
       </div>
     </a>
   
-  
-    <a href="/2019/08/11/latex_first/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">关于Latex的那些事（一）——新手入门</div>
-      <i class="icon-circle-right"></i>
-    </a>
   
 </nav>
 
@@ -509,7 +508,7 @@ p 独立一页（page）
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: true
+		showTags: false
 	}
 </script>
 

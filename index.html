@@ -115,6 +115,11 @@
 		        
 			</div>
 		
+			<!-- 网易云音乐插件 -->
+			<div style="position:absolute; bottom:120px left:auto; width:85%">
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=1365221826&auto=1&height=32"></iframe>
+			</div>
+		
 		</nav>
 	</header>		
 </div>
@@ -189,6 +194,100 @@
             
 
   
+    <article id="post-latex_first" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class=" article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	      <a class="article-title" href="/2019/08/11/latex_first/" target="_blank">关于Latex的那些事（一）——新手入门</a>
+        
+    </h1>
+  
+
+
+  
+  
+<a href="/2019/08/11/latex_first/" class="archive-article-date">
+        <time datetime="2019-08-11T07:37:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-11</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h2 id="写在前面的一些东西"><a href="#写在前面的一些东西" class="headerlink" title="写在前面的一些东西"></a>写在前面的一些东西</h2><p>这是本人的第一次正式写作，如有写的不好还请大家多多指教。后面也想陆续的写一些关于<strong>LaTex</strong>相关的东西近来，当做自己的一些总结吧，大概也会安利一些比较实用的软件啥的。</p>
+<h1 id="下面是关于LaTex的一些东西"><a href="#下面是关于LaTex的一些东西" class="headerlink" title="下面是关于LaTex的一些东西"></a>下面是关于LaTex的一些东西</h1><p>这些仅仅是LaTex很少很少的一部分，但是写点简单的文章大概够用了，比较适合刚入手LaTex的新手。作为很菜的过来人给新入手的朋友们一点小小的建议，新手一定不要先套模板，虽然现在模板很多，但是你可能看不懂，出了错你也不知道怎么改，所以基础的学习还是要有的，重要的一点，一定要多练多试，否则你在后续的改错中会头大。<br>
+    
+    <a class="article-more-a" href="/2019/08/11/latex_first/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    <div class="article-pop-out tagcloud">
+      <i class="icon-tuding"></i>
+      <a class="article-tag-list-link color3">置顶</a>
+    </div>
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Latex</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/08/11/latex_first/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-latex-table" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -219,20 +318,10 @@
   <div class="article-entry" itemprop="articleBody">
     
     <h1 id="还是关于LaTex的一些使用技巧"><a href="#还是关于LaTex的一些使用技巧" class="headerlink" title="还是关于LaTex的一些使用技巧"></a>还是关于LaTex的一些使用技巧</h1><p>此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。</p>
-<h2 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h2><p>最基础的插表格的方法已经在前面的文章里说过了，如果想参考，<a href="https://blog.csdn.net/cphtt129213/article/details/86549969" target="_blank" rel="noopener">请点击这里</a>。<br>在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;			%表头</span><br><span class="line">		\centering				%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;ccc&#125;</span><br><span class="line">			\hline</span><br><span class="line">			Name	&amp;	Li Ming	&amp;	Li Hua	\\</span><br><span class="line">			\hline</span><br><span class="line">			Math	&amp;	98		&amp;	99		\\</span><br><span class="line">			Chinese	&amp;	89		&amp;	90		\\</span><br><span class="line">			English	&amp;	99		&amp;	100		\\</span><br><span class="line">			\hline</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evAPCF.png" alt="table"></div></p>
-<p>如果觉得三线表的第一条线和第三条线不够粗，可以调用<kbd>booktabs</kbd>宏包，然后用<kbd>\toprule[…]</kbd>和<kbd>\bottomrule[…]</kbd>命令来对这两条线进行设置，当然，后边的参数可以省略，那看例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">\usepackage&#123;booktabs&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;			%表头</span><br><span class="line">		\centering				%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;ccc&#125;</span><br><span class="line">			\toprule</span><br><span class="line">			Name	&amp;	Li Ming	&amp;	Li Hua	\\</span><br><span class="line">			\hline</span><br><span class="line">			Math	&amp;	98		&amp;	99		\\</span><br><span class="line">			Chinese	&amp;	89		&amp;	90		\\</span><br><span class="line">			English	&amp;	99		&amp;	100		\\</span><br><span class="line">			\bottomrule</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure></p>
-<p>排版效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evApNT.png" alt="table"></div></p>
-<p>对于表格，应该也没有其他东西了，如果有什么问题，可以给小编留言。对了，安利两个个LaTeX表格的在线编辑网站，个人感觉还可以吧，可以省去一些事，不过如果表格太过复杂，可能会出现bug。<a href="http://www.tablesgenerator.com/#" target="_blank" rel="noopener">请点击这里1</a>，<a href="https://truben.no/table/" target="_blank" rel="noopener">请点击这里2</a>。</p>
-<h2 id="插入公式"><a href="#插入公式" class="headerlink" title="插入公式"></a>插入公式</h2><p>公式可以说是LaTeX的一个大杀器，有强迫症的小编当初入手LaTeX就是公式排出来真的好看。。<br>先来看个例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	$ a^&#123;2&#125;=b_&#123;1&#125;+c $</span><br><span class="line">	$$ a^&#123;2&#125;=b_&#123;1&#125;+c $$</span><br><span class="line">	\[ a^&#123;2&#125;=b_&#123;1&#125;+c \]</span><br><span class="line">	</span><br><span class="line">	\begin&#123;equation&#125;</span><br><span class="line">		a^&#123;2&#125;=b_&#123;1&#125;+c</span><br><span class="line">	\end&#123;equation&#125;</span><br><span class="line">	</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure></p>
-<p>排版效果图如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evA94U.png" alt="equation"></div></p>
-<p>可以清楚的看到，<kbd>\$…\$</kbd>命令主要用于排版行内公式，<kbd> \$\$…\$\$</kbd>和<kbd> \[…\]</kbd>主要用来排版不带编号的行间公式，而<kbd>equation</kbd>环境则是来排版带编号的行间公式。<br>关于公式的引用，只需要在公式环境里面加个<kbd>\label{…}</kbd>，引用的时候加上\ref{xxx}<kbd>\ref{…}</kbd>即可。<br>当然，LaTeX支持很多公式环境，个人觉得建模排版不太常见就不列举了，如果有需要请给小编留言，小编会更新的。<br>然后说一下关于公式输入的问题，建议直接用公式编辑器导入，简单粗暴，自己打很麻烦，所以小编在这里没有过多的说关于数学符号或者公式输入的问题，继续安利一波，除了常见的MathType,最近入手了AxMath，个人感觉比MathType好用，<a href="http://www.amyxun.com/" target="_blank" rel="noopener">链接放在这里</a>，各位可以尝试一波，排出来的公式是真的好看，而且功能比MathType也强大，界面如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evAi34.png" alt="axmath"></div></p>
-
+<h2 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h2><p>最基础的插表格的方法已经在前面的文章里说过了，如果想参考，<a href="https://blog.csdn.net/cphtt129213/article/details/86549969" target="_blank" rel="noopener">请点击这里</a>。<br>在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：<br>
+    
+    <a class="article-more-a" href="/2019/08/11/latex-table/#more">more >></a>
+    
     
 
     
@@ -319,31 +408,10 @@
     
     <h1 id="接下来是关于LaTex的一些使用技巧"><a href="#接下来是关于LaTex的一些使用技巧" class="headerlink" title="接下来是关于LaTex的一些使用技巧"></a>接下来是关于LaTex的一些使用技巧</h1><p>此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。</p>
 <h2 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h2><p>在LaTex如何插入图片作者在上一篇文章中已经有了简单的介绍，所以在这里就不在赘述了，想看下的话请<a href="https://blog.csdn.net/cphtt129213/article/details/86549969" target="_blank" rel="noopener">点这里</a>，接下来我们直接进入正题。</p>
-<h3 id="图片宏包"><a href="#图片宏包" class="headerlink" title="图片宏包"></a>图片宏包</h3><p>在图片插入中需要引入<kbd>graphicx</kbd>宏包，引入后就可以用<kbd>\includegraphics</kbd>来插入图片了，下面看一个例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;graphicx&#125;		%图片宏包</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\section&#123;figure&#125;		%一级标题 </span><br><span class="line"></span><br><span class="line">	\begin&#123;figure&#125;[h]</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">		\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">	\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版效果图如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evFKZ6.png" alt="1"><br>在排版过程中，<kbd>\includegraphics[$a$]{$b$}</kbd>命令中，参数$a$是可选参数，是用来调整图片的大小的，可以用$width$、$height$和$scale$来调整。参数$b$是必选参数，是来写插入图片的名字。<br>$eg：width=3cm, height=8 cm，scale=0.4[缩放因子]$，这里说明一下，多数情况下对$b$这三个参数选择一个进行对图片的缩放。<br>此外，<kbd>\centering</kbd>命令来使图片居中，<kbd>\caption{…}</kbd>命令来显示图尾。</div></p>
-<h3 id="插入路径说明"><a href="#插入路径说明" class="headerlink" title="插入路径说明"></a>插入路径说明</h3><p>对于有强迫症的小编，可能更喜欢相对路径的图片插入，也很简单，只需要在你所写的<kbd>.tex</kbd>文件的文件夹下建一个单独的文件夹，话不多说，看图：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evFMdK.png" alt="相对路径插入"><br>然后将只需要将上述的<kbd>\includegraphics[width=5cm]{3.jpg}</kbd>命令改为<kbd>\includegraphics[width=5cm]{figures/3.jpg}</kbd>命令即可。<br>此外，也可以调用 graphicx 宏包的 graphicspath 命令来指定图片的路径。</div></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;graphicx&#125;</span><br><span class="line">\graphicspath&#123;&#123;figures/&#125;&#125;			%意思是figures的文件下有图片</span><br></pre></td></tr></table></figure>
-<p>当然，还有绝对路径的插入，但小编认为这个用的不是很多，而且也没有相对路径方便（可能是因为小编有强迫症的原因…），方法就是直接将<kbd>\includegraphics[width=5cm]{3.jpg}</kbd>命令改为<kbd>\includegraphics[width=5cm]{C:\Users\Administrator\Desktop\latex\CSDN\figures/3.jpg}</kbd>命令，即改为图片所在的路径。</p>
-<h3 id="浮动体"><a href="#浮动体" class="headerlink" title="浮动体"></a>浮动体</h3><p>如果直接将图片插入文本中，会发现图片会 <strong>“乱跑”</strong> ，如果不理解啥意思，试试便知，所以多数情况下不会把图片直接插入到文本中，而是会给它放置在一个叫做浮动体（float）的东西中。这样图片可以有一些相对位置的变换，不会造成分页困难等问题。<br>而图片的浮动体为 <strong>figure</strong>， 即<kbd>\begin{figure}[h]</kbd>命令，而<kbd>h</kbd>则是当前位置插入的命令。<br>可以选择的参数有：</p>
-<pre><code>h 此处（here）
-t 页顶（top）
-b 页底（bottom）
-p 独立一页（page）
-</code></pre><h3 id="多图片插入"><a href="#多图片插入" class="headerlink" title="多图片插入"></a>多图片插入</h3><p>首先，多图片插入需要调用 <strong>subfigure</strong> 宏包，然后我们用例子说话：<br><strong>带小图尾的多图插入</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;figure&#125;[h]</span><br><span class="line">	\centering </span><br><span class="line">	\subfigure[pic1.]&#123;</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125; </span><br><span class="line">	&#125; </span><br><span class="line">	\quad </span><br><span class="line">	\subfigure[pic2.]&#123;</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">	&#125; </span><br><span class="line">	\quad </span><br><span class="line">	\subfigure[pic3.]&#123;</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125; </span><br><span class="line">	&#125; </span><br><span class="line">	\quad </span><br><span class="line">	\subfigure[pic4.]&#123;</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125; </span><br><span class="line">	&#125;</span><br><span class="line">	\caption&#123;many figures&#125; </span><br><span class="line">\end&#123;figure&#125;</span><br></pre></td></tr></table></figure></p>
-<p>排版效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evF3Je.png" alt="并排排版"></div></p>
-<p><strong>不带图尾的多图插入</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;figure&#125;[h]</span><br><span class="line">	\centering </span><br><span class="line">		\includegraphics[width=4cm]&#123;3.jpg&#125;</span><br><span class="line">		\includegraphics[width=4cm]&#123;3.jpg&#125;</span><br><span class="line">		\includegraphics[width=4cm]&#123;3.jpg&#125;</span><br><span class="line">	\caption&#123;many figures&#125; </span><br><span class="line">\end&#123;figure&#125;</span><br></pre></td></tr></table></figure></p>
-<p>排版效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evF1iD.png" alt="多图排版"></div></p>
-<p><strong>跨双栏插图：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;figure*&#125;[h]</span><br><span class="line">	\centering			%居中</span><br><span class="line">	\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">	\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">\end&#123;figure*&#125;</span><br></pre></td></tr></table></figure>
-<p>直接在<strong>figure</strong>后面加*号这样就可以把单栏的图片双栏显示了,效果图如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evFQIO.png" alt="跨双栏插图"></div></p>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>小编还是个菜鸟，有什么问题还请大家多多指教。</p>
-
+<h3 id="图片宏包"><a href="#图片宏包" class="headerlink" title="图片宏包"></a>图片宏包</h3><p>在图片插入中需要引入<kbd>graphicx</kbd>宏包，引入后就可以用<kbd>\includegraphics</kbd>来插入图片了，下面看一个例子：<br>
+    
+    <a class="article-more-a" href="/2019/08/11/latex-figure/#more">more >></a>
+    
     
 
     
@@ -370,217 +438,6 @@ p 独立一页（page）
     
     <p class="article-more-link">
       <a class="article-more-a" href="/2019/08/11/latex-figure/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-latex_first" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class=" article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	      <a class="article-title" href="/2019/08/11/latex_first/" target="_blank">关于Latex的那些事（一）——新手入门</a>
-        
-    </h1>
-  
-
-
-  
-  
-<a href="/2019/08/11/latex_first/" class="archive-article-date">
-        <time datetime="2019-08-11T07:37:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-11</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="写在前面的一些东西"><a href="#写在前面的一些东西" class="headerlink" title="写在前面的一些东西"></a>写在前面的一些东西</h2><p>这是本人的第一次正式写作，如有写的不好还请大家多多指教。后面也想陆续的写一些关于<strong>LaTex</strong>相关的东西近来，当做自己的一些总结吧，大概也会安利一些比较实用的软件啥的。</p>
-<h1 id="下面是关于LaTex的一些东西"><a href="#下面是关于LaTex的一些东西" class="headerlink" title="下面是关于LaTex的一些东西"></a>下面是关于LaTex的一些东西</h1><p>这些仅仅是LaTex很少很少的一部分，但是写点简单的文章大概够用了，比较适合刚入手LaTex的新手。作为很菜的过来人给新入手的朋友们一点小小的建议，新手一定不要先套模板，虽然现在模板很多，但是你可能看不懂，出了错你也不知道怎么改，所以基础的学习还是要有的，重要的一点，一定要多练多试，否则你在后续的改错中会头大。</p>
-<h2 id="LaTex的安装"><a href="#LaTex的安装" class="headerlink" title="LaTex的安装"></a>LaTex的安装</h2><p>关于LaTex的安装问题可能现在有很多的文章写得很清楚了，我这里就不赘述了，只是给大家推荐一个<a href="https://mirrors.tuna.tsinghua.edu.cn/#" target="_blank" rel="noopener">下载渠道</a>，这是清华大学做的一个开源镜像网站，下载速度很快。<br>具体步骤参照：获取下载链接→应用软件→TeX 排版系统。<br>PS:安利一个网上编写LaTex的网站（<a href="https://www.overleaf.com/" target="_blank" rel="noopener">点击此处进入</a>），不用安装，可以在线编译，很方便，而且只是一个人编写是免费的，但我不太建议新手入手，还是从软件开始学起比较方便，最简单的一点，毕竟出了问题很多人都能解决。</p>
-<h2 id="关于LaTex使用"><a href="#关于LaTex使用" class="headerlink" title="关于LaTex使用"></a>关于LaTex使用</h2><h3 id="一个简单的文档"><a href="#一个简单的文档" class="headerlink" title="一个简单的文档"></a>一个简单的文档</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	hello,latex!</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/ejvCVJ.png" alt="hello，latex！"></div></p>
-<p>这里简单说明一下，<kbd>\documentclass{…}</kbd> 这里是头文件，在写LaTex文档时必须以这个来开头，这个命令指定了你所写的文档的类别，而<kbd>article</kbd>决定了你的文档类别。<br>文档类别通常分为三类，book，report 和 article，它们的各自特点如下：</p>
-<ol>
-<li>book 类（书籍）<br>可以有 part，chapter，section，subsection 等，但没有摘要。</li>
-<li>report 类（长篇论文）<br>可以有 part，chapter，section，subsection 等，也有摘要，且摘要位于单独一页上，有页码。</li>
-<li>article 类（科技论文、报告、说明文档）<br>可以有 part，section，subsection 等，但没有 chapter，可以有摘要，摘要紧接标题头位于第一页上。</li>
-</ol>
-<p>此外还有一些其他的类，比如用来排版PPT的beamer，排版信件的letter等。<br>如果想对文档类型做些许调整，可以这样<kbd>\documentclass[options]{…}</kbd> 使用， options用来文档格式修正（默认字号10pt）调整为字号12pt，a4纸张，体现在语句中如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,a4paper]&#123;article&#125;</span><br></pre></td></tr></table></figure>
-<p>当然，很明显<kbd>\begin{document}</kbd>和<kbd>\end{document}</kbd>则是用来开始和结束你的文档。</p>
-<h3 id="宏包调用"><a href="#宏包调用" class="headerlink" title="宏包调用"></a>宏包调用</h3><p>使用<kbd>\usepackage</kbd>命令在编译LaTex文件时要导入的扩展包，先看个例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,a4paper]&#123;article&#125;</span><br><span class="line">\usepackage&#123;xeCJK&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	hello,latex!\\</span><br><span class="line">	你好，latex！</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	你好！</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版后的效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/ejvSrF.png" alt="宏包调用"></div></p>
-<p>这里调用了一个插入中文的宏包，对于插入中文这件事，也可以使用ctexart这种派生类的文档类别。<br>在这说一下关于<strong>换行</strong>之类的问题：</p>
-<ol>
-<li>换行<br>\\：换行<br>\newline：与\\相同。<br>\linebreak：强制换行，与\newline的区别为\linebreak的当前行分散对齐。</li>
-<li>分段<br>\par：分段（也可以用两个空行)。</li>
-<li>分页<br>\newpage：分页命令。<br>\clearpage：和 \newpage 类似。我们在使用 CJK 环境时会加入 \clearpage 在环境末尾。<h2 id="标题、图片、表格、公式的插入"><a href="#标题、图片、表格、公式的插入" class="headerlink" title="标题、图片、表格、公式的插入"></a>标题、图片、表格、公式的插入</h2><h3 id="插入标题"><a href="#插入标题" class="headerlink" title="插入标题"></a>插入标题</h3>先看例子：</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,a4paper]&#123;article&#125;</span><br><span class="line">\usepackage&#123;xeCJK&#125;</span><br><span class="line">\title&#123;My first LaTex&#125;		%标题命名</span><br><span class="line">\author&#123;cp&#125;					%作者命名</span><br><span class="line">%\date&#123;&#125;					%如果不显示日期，取消本行注释</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\maketitle					%显示标题</span><br><span class="line">\tableofcontents			%制作目录</span><br><span class="line">\section&#123;Hello LaTex&#125;		%一级标题 </span><br><span class="line">	Here is the first level title.</span><br><span class="line">	\subsection&#123;Hello latex&#125; 	%二级标题 </span><br><span class="line">		Here is the secondary title. </span><br><span class="line">		\subsubsection&#123;Hello&#125; %三级标题 </span><br><span class="line">			\paragraph&#123;latex&#125; is useful.</span><br><span class="line">				\subparagraph&#123;latex&#125; is flash.</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版后的效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/ejvi5R.png" alt="标题设置"></div></p>
-<p>LaTex会自动编译每一层的编号，即<kbd><strong>1</strong></kbd><kbd><strong>1.1</strong></kbd>之类的，标题层次大概分为以下5层：<br>section — subsection — subsubsection — paragraph — subparagraph</p>
-<h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p>先看例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,a4paper]&#123;article&#125;</span><br><span class="line">\usepackage&#123;xeCJK&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;		%图片宏包</span><br><span class="line">\title&#123;My first LaTex&#125;		%标题命名</span><br><span class="line">\author&#123;cp&#125;					%作者命名</span><br><span class="line">%\date&#123;&#125;					%如果不显示日期，取消本行注释</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\maketitle					%显示标题</span><br><span class="line">\section&#123;figure&#125;		%一级标题 </span><br><span class="line"></span><br><span class="line">	\begin&#123;figure&#125;[h]</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">		\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">	\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版后的效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/ejvPa9.png" alt="figure"></div></p>
-<p>首先，插入图片需要先调用插入图片宏包<kbd>graphicx</kbd>，其次，需要把你想插入的图片放到与你写的<kbd>.tex</kbd>文档放在同一路径下。对于<kbd>\includegraphics[width=5cm]{3.jpg}</kbd>命令，<kbd>width</kbd>用来调试图片的宽度，<kbd>3.jpg</kbd>是你想插入图片的名称。</p>
-<h3 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h3><p>先看例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,a4paper]&#123;article&#125;</span><br><span class="line">\usepackage&#123;xeCJK&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;		%图片宏包</span><br><span class="line">\title&#123;My first LaTex&#125;		%标题命名</span><br><span class="line">\author&#123;cp&#125;					%作者命名</span><br><span class="line">%\date&#123;&#125;					%如果不显示日期，取消本行注释</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\maketitle					%显示标题</span><br><span class="line">\section&#123;figure&#125;		%一级标题 </span><br><span class="line"></span><br><span class="line">	\begin&#123;figure&#125;[h]</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">		\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">	\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\section&#123;table&#125;</span><br><span class="line">	</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;		%表头</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;|c|c|c|&#125;</span><br><span class="line">		\hline</span><br><span class="line">		Score	&amp;	Li Ming		&amp;	Li Hua \\</span><br><span class="line">		\hline</span><br><span class="line">		Math	&amp;	98			&amp;	99		\\</span><br><span class="line">		\hline</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版后的效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/ejv8RP.png" alt="table"></div></p>
-<p>可以明显的看到，<kbd>\hline</kbd>命令用来编译出表格的横线，<kbd>|</kbd>则用来编译表格的竖线，而<kbd>&amp;</kbd>则用来连接横向的单元格。</p>
-<h3 id="插入数学公式"><a href="#插入数学公式" class="headerlink" title="插入数学公式"></a>插入数学公式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,a4paper]&#123;article&#125;</span><br><span class="line">\usepackage&#123;xeCJK&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;		%图片宏包</span><br><span class="line">\title&#123;My first LaTex&#125;		%标题命名</span><br><span class="line">\author&#123;cp&#125;					%作者命名</span><br><span class="line">%\date&#123;&#125;					%如果不显示日期，取消本行注释</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\maketitle					%显示标题</span><br><span class="line">\section&#123;figure&#125;		%一级标题 </span><br><span class="line"></span><br><span class="line">	\begin&#123;figure&#125;[h]</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\includegraphics[width=5cm]&#123;3.jpg&#125;</span><br><span class="line">		\caption&#123;first figure&#125; 		%图尾</span><br><span class="line">	\end&#123;figure&#125;</span><br><span class="line"></span><br><span class="line">\section&#123;table&#125;</span><br><span class="line">	</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;		%表头</span><br><span class="line">		\centering			%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;|c|c|c|&#125;</span><br><span class="line">		\hline</span><br><span class="line">		Score	&amp;	Li Ming		&amp;	Li Hua \\</span><br><span class="line">		\hline</span><br><span class="line">		Math	&amp;	98			&amp;	99		\\</span><br><span class="line">		\hline</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line"></span><br><span class="line">\section&#123;equation&#125;</span><br><span class="line"></span><br><span class="line">	\begin&#123;equation&#125;</span><br><span class="line">		a+b=c</span><br><span class="line">	\end&#123;equation&#125;</span><br><span class="line">	</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>排版后的效果如下：</p>
-<p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evppS1.png" alt="equation"></div></p>
-<p>公式的插入可以使用<kbd>equation</kbd>的公式环境，该环境会自动进行公式编号。</p>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Latex</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2019/08/11/latex_first/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class=" article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	      <a class="article-title" href="/2019/01/21/hello-world/" target="_blank">Hello World</a>
-        
-    </h1>
-  
-
-
-  
-  
-<a href="/2019/01/21/hello-world/" class="archive-article-date">
-        <time datetime="2019-01-21T05:29:58.167Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-21</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="看这里"><a href="#看这里" class="headerlink" title="看这里"></a>看这里</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2019/01/21/hello-world/">展开全文 >></a>
     </p>
     
 
@@ -657,7 +514,7 @@ p 独立一页（page）
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: true
+		showTags: false
 	}
 </script>
 

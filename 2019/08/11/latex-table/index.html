@@ -9,22 +9,22 @@
   <title>关于latex的一些事（三）——表格+公式 | 流浪浪子</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="还是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 插入表格最基础的插表格的方法已经在前面的文章里说过了，如果想参考，请点击这里。在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子： 1234567891011121314151617\documentclass&amp;#123">
+  <meta name="description" content="还是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 插入表格最基础的插表格的方法已经在前面的文章里说过了，如果想参考，请点击这里。在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：">
 <meta name="keywords" content="Latex">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于latex的一些事（三）——表格+公式">
 <meta property="og:url" content="https://cphtt129213.github.io/2019/08/11/latex-table/index.html">
 <meta property="og:site_name" content="流浪浪子">
-<meta property="og:description" content="还是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 插入表格最基础的插表格的方法已经在前面的文章里说过了，如果想参考，请点击这里。在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子： 1234567891011121314151617\documentclass&amp;#123">
+<meta property="og:description" content="还是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 插入表格最基础的插表格的方法已经在前面的文章里说过了，如果想参考，请点击这里。在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evAPCF.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evApNT.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evA94U.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/08/11/evAi34.png">
-<meta property="og:updated_time" content="2019-08-11T08:05:19.298Z">
+<meta property="og:updated_time" content="2019-08-12T01:46:12.893Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于latex的一些事（三）——表格+公式">
-<meta name="twitter:description" content="还是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 插入表格最基础的插表格的方法已经在前面的文章里说过了，如果想参考，请点击这里。在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子： 1234567891011121314151617\documentclass&amp;#123">
+<meta name="twitter:description" content="还是关于LaTex的一些使用技巧此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。 插入表格最基础的插表格的方法已经在前面的文章里说过了，如果想参考，请点击这里。在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：">
 <meta name="twitter:image" content="https://s2.ax1x.com/2019/08/11/evAPCF.png">
   
     <link rel="alternative" href="/atom.xml" title="流浪浪子" type="application/atom+xml">
@@ -116,6 +116,11 @@
 		        
 					<a class="weixin" target="_blank" href="/img/wechat.png" title="微信"><i class="icon-weixin"></i></a>
 		        
+			</div>
+		
+			<!-- 网易云音乐插件 -->
+			<div style="position:absolute; bottom:120px left:auto; width:85%">
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=1365221826&auto=1&height=32"></iframe>
 			</div>
 		
 		</nav>
@@ -243,8 +248,7 @@
   <div class="article-entry" itemprop="articleBody">
     
     <h1 id="还是关于LaTex的一些使用技巧"><a href="#还是关于LaTex的一些使用技巧" class="headerlink" title="还是关于LaTex的一些使用技巧"></a>还是关于LaTex的一些使用技巧</h1><p>此篇文章主要对LaTex的一些常用技巧进行汇总，本人主要用LaTex来写建模文章，所以用到的东西可能更加适用于建模文章写作中遇到的问题。</p>
-<h2 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h2><p>最基础的插表格的方法已经在前面的文章里说过了，如果想参考，<a href="https://blog.csdn.net/cphtt129213/article/details/86549969" target="_blank" rel="noopener">请点击这里</a>。<br>在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;			%表头</span><br><span class="line">		\centering				%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;ccc&#125;</span><br><span class="line">			\hline</span><br><span class="line">			Name	&amp;	Li Ming	&amp;	Li Hua	\\</span><br><span class="line">			\hline</span><br><span class="line">			Math	&amp;	98		&amp;	99		\\</span><br><span class="line">			Chinese	&amp;	89		&amp;	90		\\</span><br><span class="line">			English	&amp;	99		&amp;	100		\\</span><br><span class="line">			\hline</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h2><p>最基础的插表格的方法已经在前面的文章里说过了，如果想参考，<a href="https://blog.csdn.net/cphtt129213/article/details/86549969" target="_blank" rel="noopener">请点击这里</a>。<br>在写建模文章的过程中，大多用的三线表，那就先看个三线表的例子：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;			%表头</span><br><span class="line">		\centering				%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;ccc&#125;</span><br><span class="line">			\hline</span><br><span class="line">			Name	&amp;	Li Ming	&amp;	Li Hua	\\</span><br><span class="line">			\hline</span><br><span class="line">			Math	&amp;	98		&amp;	99		\\</span><br><span class="line">			Chinese	&amp;	89		&amp;	90		\\</span><br><span class="line">			English	&amp;	99		&amp;	100		\\</span><br><span class="line">			\hline</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure></p>
 <p>排版效果如下：</p>
 <p><div align="center"><img src="https://s2.ax1x.com/2019/08/11/evAPCF.png" alt="table"></div></p>
 <p>如果觉得三线表的第一条线和第三条线不够粗，可以调用<kbd>booktabs</kbd>宏包，然后用<kbd>\toprule[…]</kbd>和<kbd>\bottomrule[…]</kbd>命令来对这两条线进行设置，当然，后边的参数可以省略，那看例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">\usepackage&#123;booktabs&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">	\begin&#123;table&#125;[h]</span><br><span class="line">		\caption&#123;table&#125;			%表头</span><br><span class="line">		\centering				%居中</span><br><span class="line">		\begin&#123;tabular&#125;&#123;ccc&#125;</span><br><span class="line">			\toprule</span><br><span class="line">			Name	&amp;	Li Ming	&amp;	Li Hua	\\</span><br><span class="line">			\hline</span><br><span class="line">			Math	&amp;	98		&amp;	99		\\</span><br><span class="line">			Chinese	&amp;	89		&amp;	90		\\</span><br><span class="line">			English	&amp;	99		&amp;	100		\\</span><br><span class="line">			\bottomrule</span><br><span class="line">		\end&#123;tabular&#125;</span><br><span class="line">	\end&#123;table&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure></p>
@@ -393,8 +397,8 @@
 <nav id="article-nav">
   
   
-    <a href="/2019/08/11/latex-figure/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">关于latex的一些事（二）——图片插入</div>
+    <a href="/2019/08/11/latex_first/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">关于Latex的那些事（一）——新手入门</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -487,7 +491,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: true
+		showTags: false
 	}
 </script>
 
